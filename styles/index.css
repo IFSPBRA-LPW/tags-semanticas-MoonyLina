@@ -1,16 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+//Fonte básica e reset//
 *{
     font-family: "Roboto", sans-serif;
-    margin:0;
-    padding:0;
-    color: #333333;
-    background-color: #F9F8FA;
     line-height: 1.6;
+    margin: 0;
+    padding:0;
 }
 
+body{
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+
+}
+
+main{
+    margin: auto;
+    max-width: 800px;
+}
+
+//Cabeçalho//
 .header-container{
     background-color: #0077CC;
-    color: #FFFFFF;
+    color: white;
     text-align: center;
+    padding: 20px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.link-hover{
+    color: yellow;
+}
+
+.link:visited{
+    color: aqua;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.subtitle{
+    margin: 20px 0px;
+}
+
+.list-atividade{
+    margin:20px
+}
+
+.citacoes{
+    background-color: #e9ecef;
+    border-left: 5px solid #0077CC;
+    font-style: italic;
+    padding: 10px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background: #343a40;
+    padding: 20px;
+    margin-top: 40px;
 }
